@@ -9,11 +9,10 @@ public class Main {
     public static void main(String[] args) {
 
         Tasks.task1();
-        Tasks.task2();
-        System.out.println(Tasks.task3());
+       Tasks.task2();
         System.out.println(Tasks.task4());
-        int[] test = {2342,23423,23423,2342,12342,1,123123,3};
-        Tasks.task5(test);
+       System.out.println(Tasks.task4());
+        int[] test = {3,2342,23423,23,12342,1,123123,3};Tasks.task5(test);
         Tasks.task6(test);
 
 
